@@ -95,6 +95,7 @@ wire [2:0] saida2;
 
 statem FSM(c,res,a,saida);
 stateMem FSM2(c,res,a,saida1);
+statePorta FSM3(c,res,a,saida2);
 
 // matricula = 92539 decimal-> binario = 10110100101111011
 //1-1-0-0-1-1-1-0-1
