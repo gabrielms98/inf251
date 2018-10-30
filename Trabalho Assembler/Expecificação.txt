@@ -1,0 +1,23 @@
+﻿Usar o simulador MARS e colocar o codigo no seu GitHub. Em função do seu número de matricula, fazer os exercícios com o dígitos de matricula.
+Por exemplo, se sua matricula é 87345, irá fazer os exercicios 3, 4, 5, 7 e 8.
+Caso tenha digitos repetidos, escolher outros até completar 5 exercicios.
+
+0. Menor - Seja as variáveis A e B armazenadas na memória gp e gp+4. Escrever na posição gp+8 o menor valor.
+
+1. Seja as variáveis A,B e C armazenadas na memória gp,gp+4,gp+8. Ordenar Crescente.
+
+2. Semelhante ao 1, ordenar descrescente.
+
+3. C = A * B = ( B + B + B .....+ B). Supor que A pode ser negativo.
+
+4. Resto da Divisão C = B % A.
+
+5. Somatório de um Vetor, os elementos são maiores que 0. O termino é marcado com um elemento igual a 0.
+
+6. Achar o maior de um vetor.  O termino é marcado com um elemento igual a 0.
+
+7. Procurar quantas cópias de um elemento tem no vetor.  O termino é marcado com um elemento igual a 0.
+
+8. Dados 2 vetores A e B, positivos maiores que zero. Zero marca o final dos vetores. Calcular C[i] = a[i] - b[i];
+
+9. Contar para exercicio 8, quantos valores são menores que zero.
