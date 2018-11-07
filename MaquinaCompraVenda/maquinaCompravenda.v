@@ -64,7 +64,7 @@ wire sreset;
 
 assign next = (state == pedido)?1:0; //se o estado for pedido entao next=1 o que faz "compra" pegar outra moeda
 assign sreset = (state == init)?0:1;
-reg6 saldo(soma, clk, sreset, enS, sout);
+reg6 saldo(soma, clk, sreset, next, sout);
 
 assign vendeu = (state == venda)?1:0;
 assign enS = (state == somar)?1:0;
