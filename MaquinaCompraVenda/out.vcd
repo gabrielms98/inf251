@@ -1,0 +1,300 @@
+$date
+	Thu Nov  8 14:36:22 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module ff $end
+$var wire 1 ! c $end
+$var wire 1 " data $end
+$var wire 1 # r $end
+$var reg 1 $ q $end
+$upscope $end
+$scope module main $end
+$var wire 5 % moeda [4:0] $end
+$var wire 1 & next $end
+$var wire 5 ' ptr [4:0] $end
+$var wire 6 ( soma [5:0] $end
+$var wire 1 ) vendeu $end
+$var reg 1 * c $end
+$var reg 1 + res $end
+$scope module v $end
+$var wire 1 , clk $end
+$var wire 1 - enS $end
+$var wire 5 . moeda [4:0] $end
+$var wire 1 & next $end
+$var wire 1 / reset $end
+$var wire 6 0 sout [5:0] $end
+$var wire 1 1 sreset $end
+$var wire 1 ) vendeu $end
+$var reg 6 2 soma [5:0] $end
+$var reg 2 3 state [1:0] $end
+$scope module saldo $end
+$var wire 1 , clk $end
+$var wire 6 4 data [5:0] $end
+$var wire 1 & en $end
+$var wire 1 1 rst $end
+$var reg 6 5 q [5:0] $end
+$upscope $end
+$upscope $end
+$scope module cmp $end
+$var wire 1 , clk $end
+$var wire 1 6 enN $end
+$var wire 1 7 inc $end
+$var wire 5 8 moeda [4:0] $end
+$var wire 5 9 moedaIN [4:0] $end
+$var wire 1 & next $end
+$var wire 5 : ptrOUT [4:0] $end
+$var wire 1 / reset $end
+$var wire 1 ; rst $end
+$var wire 1 ) vendeu $end
+$var reg 5 < ptrIN [4:0] $end
+$var reg 2 = state [1:0] $end
+$scope module PTR $end
+$var wire 1 , clk $end
+$var wire 5 > data [4:0] $end
+$var wire 1 7 en $end
+$var wire 1 ; rst $end
+$var reg 5 ? q [4:0] $end
+$upscope $end
+$scope module mem $end
+$var wire 5 @ line [4:0] $end
+$var wire 1 ; reset $end
+$var reg 5 A dout [4:0] $end
+$upscope $end
+$scope module m $end
+$var wire 1 , clk $end
+$var wire 5 B data [4:0] $end
+$var wire 1 6 en $end
+$var wire 1 ; rst $end
+$var reg 5 C q [4:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx C
+bx B
+bx A
+bx @
+bx ?
+bx >
+bx =
+bx <
+x;
+bx :
+bx 9
+bx 8
+x7
+x6
+bx 5
+bx 4
+bx 3
+bx 2
+x1
+bx 0
+x/
+bx .
+x-
+0,
+x+
+0*
+x)
+bx (
+bx '
+x&
+bx %
+x$
+z#
+z"
+z!
+$end
+#1
+b0 5
+b0 0
+b0 C
+b0 %
+b0 .
+b0 8
+b0 ?
+b0 '
+b0 :
+0&
+01
+0)
+0-
+0;
+06
+07
+b0 3
+b0 =
+b0 <
+b0 >
+b0 @
+b0 2
+b0 (
+b0 4
+0+
+0/
+1*
+1,
+#2
+1+
+1/
+0*
+0,
+#3
+1&
+11
+b1 3
+1*
+1,
+#4
+0*
+0,
+#5
+b10100 A
+b10100 9
+b10100 B
+1;
+16
+b1 =
+b1 <
+b1 >
+b1 @
+1*
+1,
+#6
+0*
+0,
+#7
+b10100 C
+b10100 %
+b10100 .
+b10100 8
+06
+17
+b10 =
+1*
+1,
+#8
+0*
+0,
+#9
+b1 ?
+b1 '
+b1 :
+b10100 5
+b10100 0
+0&
+1-
+b10 3
+b10100 2
+b10100 (
+b10100 4
+1*
+1,
+#10
+0*
+0,
+#11
+07
+1)
+0-
+b11 =
+b11 3
+b101000 2
+b101000 (
+b101000 4
+1*
+1,
+#12
+0*
+0,
+#13
+b0 5
+b0 0
+b0 ?
+b0 '
+b0 :
+b0 C
+b0 %
+b0 .
+b0 8
+b101 A
+b101 9
+b101 B
+b0 2
+b0 (
+b0 4
+01
+0)
+0;
+b0 3
+b0 =
+b0 <
+b0 >
+b0 @
+1*
+1,
+#14
+0*
+0,
+#15
+1&
+11
+b1 3
+1*
+1,
+#16
+0*
+0,
+#17
+b10100 A
+b10100 9
+b10100 B
+1;
+16
+b1 =
+b1 <
+b1 >
+b1 @
+1*
+1,
+#18
+0*
+0,
+#19
+b10100 C
+b10100 %
+b10100 .
+b10100 8
+06
+17
+b10 =
+1*
+1,
+#20
+0*
+0,
+#21
+b1 ?
+b1 '
+b1 :
+b10100 5
+b10100 0
+0&
+1-
+b10 3
+b10100 2
+b10100 (
+b10100 4
+1*
+1,
+#22
+0*
+0,
